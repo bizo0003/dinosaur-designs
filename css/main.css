@@ -1,44 +1,49 @@
 html {
-  box-sizing: html;
-    box-sizing: border-box;
-    background-color: #f2f1ed;
-    font-family: Georgia, serif;
-    line-height: 1.5;
-  }
+  box-sizing: border-box;
+  background-color: #f2f1ed;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  img {
-    color: #5d8432;
-    text-transform: uppercase;
-  }
+img {
+  width: 100%;
+}
 
-  figcaption {
-    font-size: .8rem;
-    font-style: italic;
-    text-align: center;
-  }
+h1, h2 {
+  font-family: Patua;
+  color: #5d8432;
+  text-transform: uppercase;
+}
 
-  nav {
-    font-size: 1.125rem;
-    font-weight: bold;
-  }
+figcaption {
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
 
-  nav ol {
-    list-style-type: none;
-  }
+nav {
+  font-family: Patua;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
 
-  nav a {
-    color: #793284;
-    text-decoration: none;
-  }
+nav ol {
+  list-style-type: none;
+}
 
-  nav a:hover {
-    color: #b42885;
-  }
+nav a {
+  color: #793284;
+  text-decoration: none;
+}
 
-  .intro {
-    font-size: 1rem;
-  }
+nav a:hover {
+  color: #b42885;
+}
+
+.intro {
+  font-size: 1rem;
+}
